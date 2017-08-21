@@ -1,2 +1,2 @@
 # pyhnalgolia
-Unofficial wrapper on anlgolia hackernews API.
+Unofficial Python wrapper for https://hn.algolia.com/api.
