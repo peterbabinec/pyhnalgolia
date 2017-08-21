@@ -1,8 +1,7 @@
-#!/usr/bin/env python
-
 """
-angolia hacker news
+Angolia hacker news
 Python wrapper for official Angolia Hacker News API
+
 @author delusionX
 """
 
@@ -115,8 +114,7 @@ class Item(object):
 
     def __init__(self, data):
         self.item_id = data.get('id')
-        self.created_at = datetime.datetime.fromtimestamp(
-            data.get('created_at'))
+        self.created_at = data.get('created_at')
         self.author = data.get('author')
         self.title = data.get('title')
         self.url = data.get('url')
